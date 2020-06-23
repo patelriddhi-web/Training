@@ -1,0 +1,38 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="step2.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="calculator">
+          <div id='step3'>
+            <h3>Step 2 : Insert your values</h3>
+            <p>You have selected a <span id='selectedValue'></span>, please input
+                the required variables.</p>
+
+                <div id='rectangle'>
+                    Height: 
+                    <input type='text' id='height'/><br>
+                    Width: 
+                    <input type='text' id='width' />
+                </div>
+                <div id='circle'>
+                    Diameter:<input type='text' id='dia' />
+                </div>
+                <div id='square'>
+                    length: <input type='text' id='side' />
+                </div>
+                <div id='ellipse'>
+                    A axis:  <input type='text' id='a' /> <br>
+                    B axis:  <input type='text' id='b' />
+                </div>
+                <div id='btn'>
+                    <button type='button' onclick="goToStep3()">Go To Step 3</button>
+                </div>
+                <div id='link'><span> or </span> <a href='index.html'>Cancle</a></div>
+          </div>
+    </div>
+    </div>
+    <script src="step2.js"></script>
+  </body>
+</html>

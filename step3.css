@@ -1,0 +1,24 @@
+#container {
+    width:100%;
+    background-color: white;
+}
+
+#calculator {
+    width:50%;
+    height: auto;
+    padding: 25px;
+    border: 2px solid gray;
+    border-radius: 3px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+#selectedValue {
+    font-weight: bold;
+}
+#result {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
